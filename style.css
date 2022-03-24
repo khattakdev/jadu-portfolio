@@ -38,6 +38,11 @@ span.highlight {
   display: flex;
   margin: 250px 0px;
   justify-content: space-between;
+  transition: all 0.2s ease-in;
+}
+
+.project:hover {
+  box-shadow: 3px 2px 10px #0000007e;
 }
 
 .project .image-placeholder {
@@ -58,5 +63,26 @@ span.highlight {
   background-image: url("https://images.unsplash.com/photo-1647976869121-304aa52be69b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
 }
 .project .project-content {
+  width: 50%;
+}
+
+.learn-more {
+  background-color: var(--primary);
+  text-align: center;
+  font-size: 4rem;
+  padding: 40px 0px;
+  color: white;
+}
+
+.learn-more a {
+  color: white;
+  text-decoration: none;
+}
+
+.learn-more a:hover {
+  text-decoration: underline;
+}
+
+.section-info {
   width: 50%;
 }
